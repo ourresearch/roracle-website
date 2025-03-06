@@ -1,0 +1,25 @@
+{
+  "name": "roracle-ui",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "UI for the RORacle API that identifies scholarly organizations from affiliation strings",
+  "dependencies": {
+    "@vueuse/core": "^12.8.2",
+    "axios": "^1.8.1",
+    "vite": "^6.2.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1"
+  }
+}
