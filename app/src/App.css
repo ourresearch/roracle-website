@@ -1,0 +1,25 @@
+/* App-specific styles - using Tailwind CSS for most styling */
+
+/* Fix for focus outlines on interactive elements */
+:focus {
+  outline: 2px solid black;
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
